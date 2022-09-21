@@ -6,7 +6,6 @@ export default function scrolls(){
             if(article.getBoundingClientRect().top < innerHeight / 1.8){
                 article.classList.add("show")
             }
-            console.log("oi")
         })
 
         if(Array.from(document.querySelectorAll(".show")).length === alvo.length){
