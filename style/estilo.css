@@ -133,9 +133,13 @@ html{
     opacity: 0;
 }
 
+.no-js .section-article article{
+    opacity: 1;
+}
+
 .js .show{
     opacity: 1;
-    transition: 1.5s;
+    transition: opacity 1.5s;
 }
 
 .perfil{
@@ -209,7 +213,7 @@ html{
 
 .cards{
     background-image: linear-gradient(to right ,aquamarine, rgb(125, 189, 189));
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 20px;
@@ -271,8 +275,11 @@ html{
 /* Footer */
 footer{
     background-color: rgb(0, 0, 75);
-    justify-content:center;
     color: white;
+}
+
+.js footer{
+    justify-content:center;
     display: flex;
 }
 
@@ -282,7 +289,7 @@ footer{
     font-size: 22px;
 }
 
-.copyright{
+.js .copyright{
     margin: auto 0;
     display: inline-block;
 }
@@ -298,16 +305,20 @@ footer{
     text-decoration: none;
 }
 
-.contact{
+.js .contact{
     display: inline-block;
 }
 
-.contact ul{
+.js .contact span{
+    display: none;
+}
+
+.js .contact ul{
     list-style-type: none;
     display: flex;
 }
 
-.contact li{
+.js .contact li{
     font-size: 22px;
     margin-left:10px;
 }
@@ -416,6 +427,19 @@ footer{
         display:flex;
     }
 
+    
+    .fa-square-js{
+        color: yellow;
+    }
+
+    .fa-css3-alt{
+        color: blue;
+    }
+
+    .fa-html5{
+        color: orangered;
+    }
+
     .content-icons{
         float: left;
         margin:20px 20px 10px ;
@@ -456,18 +480,6 @@ footer{
 
     .cards{
         width: 60%;
-    }
-
-    .fa-square-js{
-        color: yellow;
-    }
-
-    .fa-css3-alt{
-        color: blue;
-    }
-
-    .fa-html5{
-        color: orangered;
     }
 
     .container:last-child{
@@ -519,6 +531,11 @@ footer{
         background-image: linear-gradient(to right, rgb(0, 93, 180, 0.274),rgba(0, 255, 55, 0.274), rgb(0, 93, 180, 0.274));
     }
 
+    /* Section Article */
+    .section-article{
+        min-height: 347px;
+    }
+
     .content-icons{
         margin:20px auto 10px;
         align-items: center;
@@ -527,8 +544,6 @@ footer{
         width: 100%;
         justify-content: space-around;
     }
-
-    /* Section Article */
 
     .main-article{
         height: 45%;
