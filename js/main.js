@@ -35,5 +35,13 @@ import Scroll from "./scroll.js";
         img: "img/Conversor.png"
     })
 
+    let secretWord = new Project({
+        id: 7,
+        link: "https://github.com/KaiooLopes/WordGame",
+        title: "SecretWord",
+        subtitle: "Jogo de palavras secretas feito com ReactJs",
+        img: "https://user-images.githubusercontent.com/109401296/192622979-66bec025-674e-462c-8e80-380504165f70.png"
+    })
+
     Scroll();
 })();
