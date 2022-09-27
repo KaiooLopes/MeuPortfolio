@@ -35,7 +35,7 @@ import Scroll from "./scroll.js";
         img: "img/Conversor.png"
     })
 
-    let secretWord = new Project({
+    let secretWord = new Projects({
         id: 7,
         link: "https://github.com/KaiooLopes/WordGame",
         title: "SecretWord",
