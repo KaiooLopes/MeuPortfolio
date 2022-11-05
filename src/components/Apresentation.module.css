@@ -20,44 +20,16 @@
   }
 
   .apresentation section:nth-child(1) {
-    animation: translate;
-    animation-duration: 2s;
+    transform: translateX(1500px);
+    transition: transform 2s;
   }
   .apresentation section:nth-child(2) {
-    animation: translate1;
-    animation-duration: 2s;
+    transform: translateX(-1500px);
+    transition: transform 2s;
   }
   .apresentation section:nth-child(3) {
-    animation: translate2;
-    animation-duration: 2s;
-  }
-
-  @keyframes translate {
-    from {
-      transform: translateX(1500px);
-    }
-
-    to {
-      transform: translateX(0);
-    }
-  }
-  @keyframes translate1 {
-    from {
-      transform: translateX(-1500px);
-    }
-
-    to {
-      transform: translateX(0);
-    }
-  }
-  @keyframes translate2 {
-    from {
-      transform: translateX(1500px);
-    }
-
-    to {
-      transform: translateX(0);
-    }
+    transform: translateX(1500px);
+    transition: transform 2s;
   }
 
   @keyframes up-down {
@@ -102,45 +74,17 @@
     }
   }
 
-  @keyframes translate {
-    from {
-      transform: translateX(1000px);
-    }
-
-    to {
-      transform: translateX(0);
-    }
-  }
-  @keyframes translate1 {
-    from {
-      transform: translateX(-1000px);
-    }
-
-    to {
-      transform: translateX(0);
-    }
-  }
-  @keyframes translate2 {
-    from {
-      transform: translateX(1000px);
-    }
-
-    to {
-      transform: translateX(0);
-    }
-  }
-
   .apresentation section:nth-child(1) {
-    animation: translate;
-    animation-duration: 2s;
+    transform: translateX(900px);
+    transition: transform 2s;
   }
   .apresentation section:nth-child(2) {
-    animation: translate1;
-    animation-duration: 2s;
+    transform: translateX(-900px);
+    transition: transform 2s;
   }
   .apresentation section:nth-child(3) {
-    animation: translate2;
-    animation-duration: 2s;
+    transform: translateX(900px);
+    transition: transform 2s;
   }
 
   .apresentation {

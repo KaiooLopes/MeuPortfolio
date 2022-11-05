@@ -2,21 +2,21 @@ import styles from "./Apresentation.module.css";
 import mypick from "./../mypick.jpg";
 import frontend from "./../front-end.jpg";
 import programation from "./../programation.jpg";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 const Apresentation = () => {
   const div = useRef(null);
-  useEffect(() => {
+
+  const onload = () => {
     const sections = div.current.querySelectorAll("section");
-    window.onload = () => {
-      Array.from(sections).forEach((section) => {
-        section.style.opacity = 1;
-      });
-    };
-  }, []);
+    Array.from(sections).forEach((section, i) => {
+      section.style.opacity = 1;
+      section.style.transform = "translateX(0)";
+    });
+  };
 
   return (
-    <div className={styles.apresentation} ref={div}>
+    <div className={styles.apresentation} ref={div} onLoad={onload}>
       <section>
         <img src={mypick} alt="foto perfil" className={styles.mypick} />
         <p>
