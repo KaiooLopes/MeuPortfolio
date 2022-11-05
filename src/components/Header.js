@@ -80,7 +80,7 @@ const Header = () => {
               </a>
             </li>
             <li className={styles.cert_a}>
-              <a href="/#">Certificados</a>
+              <a href={() => false}>Certificados</a>
               <ul className={styles.ul_certificados} ref={ulCert}>
                 <li>
                   <a

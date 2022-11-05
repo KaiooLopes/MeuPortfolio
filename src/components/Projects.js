@@ -35,25 +35,25 @@ const Projects = () => {
           subtitle={
             "Calculadora simples para exercitar o HTML, CSS e Javascript"
           }
-          link={"http://google.com"}
+          link={"https://github.com/KaiooLopes/Calculadora"}
         />
         <ProjectDetail
           img={coffe}
           title={"Grano Coffee"}
           subtitle={"Landing page fictício de uma loja de café."}
-          link={"http://google.com"}
+          link={"https://github.com/KaiooLopes/GranoCoffee"}
         />
         <ProjectDetail
           img={conversor}
           title={"Conversor de medidas"}
           subtitle={"Conversor de Medidas feito em Typescript"}
-          link={"http://google.com"}
+          link={"https://github.com/KaiooLopes/ConversorDeMedidas"}
         />
         <ProjectDetail
           img={memory_game}
           title={"Jogo da memória"}
           subtitle={"Jogo da memória feito em Typescript"}
-          link={"http://google.com"}
+          link={"https://github.com/KaiooLopes/MemoryGame"}
         />
         <ProjectDetail
           img={tabela}
@@ -61,13 +61,13 @@ const Projects = () => {
           subtitle={
             "Tabela de notas feito em HTML, CSS e Javascript. Padrão MVC."
           }
-          link={"http://google.com"}
+          link={"https://github.com/KaiooLopes/TabelaAlunosMedia"}
         />
         <ProjectDetail
           img={todolist}
           title={"Lista de tarefas"}
           subtitle={"Lista de tarefas simples com localStorage"}
-          link={"http://google.com"}
+          link={"https://github.com/KaiooLopes/ToDoList"}
         />
         <ProjectDetail
           img={wordlol}

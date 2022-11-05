@@ -10,14 +10,14 @@ const Footer = () => {
         </span>
         <div className={styles.contacts}>
           <div className={styles.email}>
-            <a href="/#">
+            <a href={() => false}>
               <i className="fa-regular fa-envelope"></i>
             </a>
             <p>kaio.loopes18@gmail.com</p>
           </div>
 
           <div className={styles.whats}>
-            <a href="/#">
+            <a href={() => false}>
               <i className="fa-brands fa-whatsapp"></i>
             </a>
             <p>(51) 9 8653-7075</p>

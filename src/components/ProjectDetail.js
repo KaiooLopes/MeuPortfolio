@@ -6,7 +6,9 @@ const ProjectDetail = ({ title, subtitle, img, link }) => {
       <img src={img} alt="Imagem-projeto" />
       <h2>{title}</h2>
       <p>{subtitle}</p>
-      <a href={link}>Ver mais</a>
+      <a href={link} target={"_blank"} rel="noreferrer">
+        Ver mais
+      </a>
     </div>
   );
 };
