@@ -10,6 +10,7 @@ import memory_game from "../../src/imgsProjetos/memory_game.png";
 import tabela from "../../src/imgsProjetos/tabela.png";
 import todolist from "../../src/imgsProjetos/todolist.png";
 import wordlol from "../../src/imgsProjetos/wordlol.png";
+import todolistonline from "../../src/imgsProjetos/todolistonline.png";
 
 /* HOOKS */
 import { useEffect } from "react";
@@ -74,6 +75,14 @@ const Projects = () => {
           title={"Wordlol"}
           subtitle={"Jogo feito em React.js com o banco de dados do firebase"}
           link={"https://wordlol.netlify.app"}
+        />
+        <ProjectDetail
+          img={todolistonline}
+          title={"ToDoList"}
+          subtitle={
+            "Site para criar colunas de tarefas feito com Javascript, HTML, CSS e React.js"
+          }
+          link={"https://todolistonlinee.netlify.app/"}
         />
       </section>
     </div>
