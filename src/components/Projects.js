@@ -11,6 +11,7 @@ import tabela from "../../src/imgsProjetos/tabela.png";
 import todolist from "../../src/imgsProjetos/todolist.png";
 import wordlol from "../../src/imgsProjetos/wordlol.png";
 import todolistonline from "../../src/imgsProjetos/todolistonline.png";
+import lobbyagency from "../../src/imgsProjetos/lobbyagency.png";
 
 /* HOOKS */
 import { useEffect } from "react";
@@ -83,6 +84,12 @@ const Projects = () => {
             "Site para criar colunas de tarefas feito com Javascript, HTML, CSS e React.js"
           }
           link={"https://todolistonlinee.netlify.app/"}
+        />
+        <ProjectDetail
+          img={lobbyagency}
+          title={"Lobby Agency"}
+          subtitle={"Landing Page criada para um cliente e sua empresa."}
+          link={"https://lobbyagency.com.br/"}
         />
       </section>
     </div>

@@ -1,7 +1,7 @@
 import styles from "./Apresentation.module.css";
-import mypick from "./../mypick.jpg";
-import frontend from "./../front-end.jpg";
-import programation from "./../programation.jpg";
+import mypick from "./../images/mypick.jpg";
+import frontend from "./../images/front-end.jpg";
+import programation from "./../images/programation.jpg";
 import { useRef } from "react";
 
 const Apresentation = () => {
