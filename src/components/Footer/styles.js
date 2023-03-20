@@ -58,6 +58,7 @@ export const FooterContainer = styled.div`
     border-radius: 5px;
     padding: 3px;
     white-space: nowrap;
+    font-family: "Bebas Neue", sans-serif;
   }
 
   .whats:hover p,

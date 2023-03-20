@@ -1,4 +1,4 @@
-import "./App.css";
+import { AppContainer, Body, GlobalStyle } from "./AppStyles";
 import Header from "./components/Header";
 import Apresentation from "./components/Apresentation";
 import Projects from "./components/Projects";
@@ -6,14 +6,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
+      <GlobalStyle />
       <Header />
-      <div className="body">
+      <Body>
         <Apresentation />
         <Projects />
         <Footer />
-      </div>
-    </div>
+      </Body>
+    </AppContainer>
   );
 }
 

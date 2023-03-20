@@ -56,7 +56,6 @@ export const ApresentationContainer = styled.div`
       color: white;
       font-size: 25px;
       line-height: 2em;
-      font-family: Arial, Helvetica, sans-serif;
     }
   }
 
@@ -105,7 +104,6 @@ export const ApresentationContainer = styled.div`
       color: white;
       font-size: 22px;
       line-height: 2em;
-      font-family: Arial, Helvetica, sans-serif;
     }
   }
 

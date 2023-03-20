@@ -22,16 +22,12 @@ export const ProjectDetailContainer = styled.div`
 
     a {
       text-decoration: none;
-      padding: 6px 0;
+      padding: 6px 30px;
       border-radius: 30px;
       color: white;
       font-size: 16px;
       text-transform: uppercase;
       background-color: black;
-      position: absolute;
-      bottom: 30px;
-      left: 50px;
-      right: 50px;
       transition: 0.4s;
     }
 
@@ -43,6 +39,7 @@ export const ProjectDetailContainer = styled.div`
       max-width: 100%;
       color: white;
       font-size: 19px;
+      margin-bottom: 10px;
     }
 
     h2 {
