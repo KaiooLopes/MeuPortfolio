@@ -1,7 +1,7 @@
-import styles from "./Apresentation.module.css";
-import mypick from "./../images/mypick.jpg";
-import frontend from "./../images/front-end.jpg";
-import programation from "./../images/programation.jpg";
+import { ApresentationContainer } from "./styles";
+import mypick from "./../../images/mypick.jpg";
+import frontend from "./../../images/front-end.jpg";
+import programation from "./../../images/programation.jpg";
 import { useRef } from "react";
 
 const Apresentation = () => {
@@ -16,9 +16,9 @@ const Apresentation = () => {
   };
 
   return (
-    <div className={styles.apresentation} ref={div} onLoad={onload}>
+    <ApresentationContainer ref={div} onLoad={onload}>
       <section>
-        <img src={mypick} alt="foto perfil" className={styles.mypick} />
+        <img src={mypick} alt="foto perfil" className={"mypick"} />
         <p>
           Olá, meu nome é Kaio, tenho 19 anos e sou de São Lourenço do Sul (
           <abbr>RS</abbr>), mas atualmente moro em Florianópolis (
@@ -26,7 +26,7 @@ const Apresentation = () => {
         </p>
       </section>
       <section>
-        <img src={frontend} alt="front-end" className={styles.front_end} />
+        <img src={frontend} alt="front-end" className={"front_end"} />
         <p>
           Tenho experiência em Javascript, CSS, HTML, Typescript e quero
           aprender outras ferramentas e linguagens.
@@ -40,7 +40,7 @@ const Apresentation = () => {
           back-end também, e assim poder atuar como full stack.
         </p>
       </section>
-    </div>
+    </ApresentationContainer>
   );
 };
 

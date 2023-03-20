@@ -1,22 +1,22 @@
-import styles from "./Footer.module.css";
+import { FooterContainer } from "./styles";
 
 const Footer = () => {
   return (
-    <div className={styles.footer} id="footer">
+    <FooterContainer id="footer">
       <footer>
         <span>
           Portfólio/Kaio
           <i className="fa-regular fa-id-card"></i>
         </span>
-        <div className={styles.contacts}>
-          <div className={styles.email}>
+        <div className="contacts">
+          <div className="email">
             <a href="/#" onClick={(e) => e.preventDefault()}>
               <i className="fa-regular fa-envelope"></i>
             </a>
             <p>kaio.loopes18@gmail.com</p>
           </div>
 
-          <div className={styles.whats}>
+          <div className="whats">
             <a href="/#" onClick={(e) => e.preventDefault()}>
               <i className="fa-brands fa-whatsapp"></i>
             </a>
@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
         </div>
       </footer>
-    </div>
+    </FooterContainer>
   );
 };
 
