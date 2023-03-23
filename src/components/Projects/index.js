@@ -5,6 +5,7 @@ import { ProjectsContainer } from "./styles";
 import ProjectDetail from "../ProjectDetail";
 import wordlol from "../../imgsProjetos/wordlol.png";
 import todolistonline from "../../imgsProjetos/todolistonline.png";
+import UltraDentino from "../../imgsProjetos/UltraDentino.png";
 
 /* HOOKS */
 import { useEffect } from "react";
@@ -37,6 +38,12 @@ const Projects = () => {
             "Site para criar colunas de tarefas feito com Javascript, HTML, CSS e React.js"
           }
           link={"https://todolistonlinee.netlify.app/"}
+        />
+        <ProjectDetail
+          img={UltraDentino}
+          title={"Ultra Dentino"}
+          subtitle={"Site Ficticio Ultra Dentino"}
+          link={"https://ultradentino.netlify.app/"}
         />
       </section>
     </ProjectsContainer>
