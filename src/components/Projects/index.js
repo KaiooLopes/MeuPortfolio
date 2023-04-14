@@ -54,12 +54,6 @@ const Projects = () => {
           link={"https://cinerate.netlify.app/"}
         />
         <ProjectDetail
-          img={cinerate}
-          title={"Cinerate"}
-          subtitle={"Catálogo  de filmes"}
-          link={"https://cinerate.netlify.app/"}
-        />
-        <ProjectDetail
           img={misenscene}
           title={"Misenscene"}
           subtitle={"Site da Misenscene Arte e Cultura"}
