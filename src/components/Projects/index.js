@@ -7,6 +7,7 @@ import wordlol from "../../imgsProjetos/wordlol.png";
 import todolistonline from "../../imgsProjetos/todolistonline.png";
 import UltraDentino from "../../imgsProjetos/UltraDentino.png";
 import cinerate from "../../imgsProjetos/cinerate.png";
+import misenscene from "../../imgsProjetos/misenscene.png";
 
 /* HOOKS */
 import { useEffect } from "react";
@@ -51,6 +52,18 @@ const Projects = () => {
           title={"Cinerate"}
           subtitle={"Catálogo  de filmes"}
           link={"https://cinerate.netlify.app/"}
+        />
+        <ProjectDetail
+          img={cinerate}
+          title={"Cinerate"}
+          subtitle={"Catálogo  de filmes"}
+          link={"https://cinerate.netlify.app/"}
+        />
+        <ProjectDetail
+          img={misenscene}
+          title={"Misenscene"}
+          subtitle={"Site da Misenscene Arte e Cultura"}
+          link={"https://misenscene.com.br/"}
         />
       </section>
     </ProjectsContainer>
