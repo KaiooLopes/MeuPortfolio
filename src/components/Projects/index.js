@@ -6,6 +6,7 @@ import ProjectDetail from "../ProjectDetail";
 import wordlol from "../../imgsProjetos/wordlol.png";
 import todolistonline from "../../imgsProjetos/todolistonline.png";
 import UltraDentino from "../../imgsProjetos/UltraDentino.png";
+import cinerate from "../../imgsProjetos/cinerate.png";
 
 /* HOOKS */
 import { useEffect } from "react";
@@ -44,6 +45,12 @@ const Projects = () => {
           title={"Ultra Dentino"}
           subtitle={"Site Ficticio Ultra Dentino"}
           link={"https://ultradentino.netlify.app/"}
+        />
+        <ProjectDetail
+          img={cinerate}
+          title={"Cinerate"}
+          subtitle={"Catálogo  de filmes"}
+          link={"https://cinerate.netlify.app/"}
         />
       </section>
     </ProjectsContainer>
