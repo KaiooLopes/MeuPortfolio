@@ -109,6 +109,15 @@ const Header = () => {
                 Certificado Front-end Básico
               </a>
             </li>
+            <li>
+              <a
+                href="https://udemy-certificate.s3.amazonaws.com/image/UC-9b7aafb1-def9-40ab-9722-88aeb6b5f1f7.jpg"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                Certificado React.js
+              </a>
+            </li>
           </ul>
         </li>
 
