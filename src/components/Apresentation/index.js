@@ -20,7 +20,7 @@ const Apresentation = () => {
       <section>
         <img src={mypick} alt="foto perfil" className={"mypick"} />
         <p>
-          Olá, meu nome é Kaio, tenho 19 anos e sou de São Lourenço do Sul (
+          Olá, meu nome é Kaio, tenho 20 anos e sou de São Lourenço do Sul (
           <abbr>RS</abbr>), mas atualmente moro em Florianópolis (
           <abbr>SC</abbr>).
         </p>
