@@ -4,7 +4,7 @@ import { ProjectsContainer, ShowDetails } from "./styles";
 /* IMAGES */
 import wordlol from "../../imgsProjetos/wordlol.png";
 import todolistonline from "../../imgsProjetos/todolistonline.png";
-import ultradentino from "../../imgsProjetos/ultradentino.png";
+
 import cinerate from "../../imgsProjetos/cinerate.png";
 import misenscene from "../../imgsProjetos/misenscene.png";
 import { useState } from "react";
@@ -60,13 +60,7 @@ const Projects = () => {
       link: "https://todolistonlinee.netlify.app/",
       tecs: ["React.js", "Javascript", "Css", "Styled-components", "HTML 5"],
     },
-    {
-      img: ultradentino,
-      title: "Ultra Dentino",
-      subtitle: "Site Ficticio Ultra Dentino",
-      link: "https://ultradentino.netlify.app/",
-      tecs: ["React.js", "Javascript", "Css", "Styled-components", "HTML 5"],
-    },
+
     {
       img: cinerate,
       title: "Cinerate",
