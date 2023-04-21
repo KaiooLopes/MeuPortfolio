@@ -68,8 +68,9 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ShowDetails = styled.div`
-  min-height: ${(props) => (props.scrollPage ? "400px" : 0)};
+  max-height: ${(props) => (props.scrollPage ? "400px" : 0)};
   display: flex;
+  overflow: hidden;
   margin: 40px 0;
   transition: opacity 0.5s;
   opacity: ${(props) => (props.switchProject ? 0 : 1)};
@@ -78,7 +79,6 @@ export const ShowDetails = styled.div`
   flex-direction: column;
   color: white;
   div {
-    overflow: hidden;
     width: 100%;
   }
   img {
@@ -91,7 +91,7 @@ export const ShowDetails = styled.div`
   @media (min-width: 931px) {
     flex-direction: row;
     width: 70%;
-    margin: 0 auto;
+    margin: 40px auto;
     img {
       width: 70%;
     }
