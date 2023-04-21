@@ -20,24 +20,25 @@ const Apresentation = () => {
       <section>
         <img src={mypick} alt="foto perfil" className={"mypick"} />
         <p>
-          Olá, meu nome é Kaio, tenho 20 anos e sou de São Lourenço do Sul (
-          <abbr>RS</abbr>), mas atualmente moro em Florianópolis (
-          <abbr>SC</abbr>).
-        </p>
-      </section>
-      <section>
-        <img src={frontend} alt="front-end" className={"front_end"} />
-        <p>
-          Tenho experiência em Javascript, CSS, HTML, Typescript e quero
-          aprender outras ferramentas e linguagens.
+          Olá, meu nome é Kaio, sou desenvolvedor Front-End, tenho 20 anos e sou
+          de São Lourenço do Sul (RS), mas atualmente moro em Florianópolis
+          (SC).
         </p>
       </section>
       <section>
         <img src={programation} alt="programação" />
         <p>
-          Meu foco atualmente é conseguir um emprego na área de programação, mas
-          especificamente em front-end, porém, quero aprender a atuar na área de
-          back-end também, e assim poder atuar como full stack.
+          Sempre gostei muito de computação e me achei na programação, onde
+          quero seguir na carreira de programador front-end, porém, tenho
+          vontade de ampliar cada vez meus conhecimentos em outras áreas.
+        </p>
+      </section>
+      <section>
+        <img src={frontend} alt="front-end" className={"front_end"} />
+        <p>
+          Tenho experiência em Javascript, CSS, HTML, Typescript, React.js,
+          Styled-components, Git, Github e sempre estou buscando aprender mais
+          ferramentas e adquirir mais conhecimentos Front-End.
         </p>
       </section>
     </ApresentationContainer>

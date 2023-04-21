@@ -1,5 +1,6 @@
 import { HeaderContainer } from "./styles";
 import { useRef, useState } from "react";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   const ulCert = useRef(null);
@@ -47,8 +48,7 @@ const Header = () => {
   return (
     <HeaderContainer>
       <span>
-        Portfólio/Kaio
-        <i className="fa-regular fa-id-card"></i>
+        <img src={logo} alt="Logo" />
       </span>
       <button
         className={`fa-solid fa-bars ${"menu"}`}

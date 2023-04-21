@@ -43,7 +43,7 @@ export const ApresentationContainer = styled.div`
       border-radius: 53% 47% 54% 46% / 55% 33% 67% 45%;
     }
     section:nth-child(2) img {
-      border-radius: 33% 67% 38% 62% / 53% 48% 52% 47%;
+      border-radius: 5px;
     }
     section:nth-child(3) img {
       border-radius: 34% 66% 37% 63% / 68% 29% 71% 32%;
@@ -54,7 +54,7 @@ export const ApresentationContainer = styled.div`
       margin: 0 20px;
       width: 60%;
       color: white;
-      font-size: 25px;
+      font-size: 22px;
       line-height: 2em;
     }
   }
@@ -85,6 +85,7 @@ export const ApresentationContainer = styled.div`
       align-items: flex-start;
       justify-content: center;
       width: 90%;
+      max-width: 600px;
       margin: 0 auto;
       padding: 50px 0 0 0;
     }

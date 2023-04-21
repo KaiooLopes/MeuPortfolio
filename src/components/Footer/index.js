@@ -1,12 +1,12 @@
 import { FooterContainer } from "./styles";
+import logo from "../../images/logo.png";
 
 const Footer = () => {
   return (
     <FooterContainer id="footer">
       <footer>
         <span>
-          Portfólio/Kaio
-          <i className="fa-regular fa-id-card"></i>
+          <img src={logo} alt="Logo" />
         </span>
         <div className="contacts">
           <div className="email">

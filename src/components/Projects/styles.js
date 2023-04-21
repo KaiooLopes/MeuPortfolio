@@ -1,41 +1,99 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  @media (min-width: 931px) {
-    width: 86%;
-    margin: 0 auto 30px;
+  margin: 50px 0;
 
-    h1 {
-      color: rgb(50, 190, 255);
-      margin: 90px 0;
-      font-size: 45px;
-      letter-spacing: 9px;
-      text-transform: uppercase;
+  h1 {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  section {
+    button {
+      transition: transform 0.4s;
+      background-color: transparent;
+      border: none;
+      width: 150px;
+      img {
+        width: 100%;
+        max-width: 200px;
+        border-radius: 20px;
+      }
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
     }
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
 
-    section {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 40px;
+  span {
+    display: block;
+    max-width: ${(props) => (props.scrollPage ? "90%" : 0)};
+    transition: 0.3s;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+
+    span {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      background-color: transparent;
+      border: 20px solid
+        ${(props) => (props.scrollPage ? "white" : "transparent")};
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+      border-left-color: transparent;
     }
   }
 
-  @media (max-width: 930px) {
-    width: 90%;
-    margin: 0 auto 20px;
-
-    h1 {
-      color: rgb(50, 190, 255);
-      margin: 90px 0;
-      font-size: 30px;
-      letter-spacing: 7px;
-      text-transform: uppercase;
+  @media (min-width: 931px) {
+    section {
+      width: 70%;
     }
 
-    section {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 20px;
+    span {
+      width: ${(props) => (props.scrollPage ? "70%" : 0)};
+    }
+  }
+`;
+
+export const ShowDetails = styled.div`
+  min-height: ${(props) => (props.scrollPage ? "400px" : 0)};
+  display: flex;
+  margin: 40px 0;
+  transition: opacity 0.5s;
+  opacity: ${(props) => (props.switchProject ? 0 : 1)};
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  div {
+    overflow: hidden;
+    width: 100%;
+  }
+  img {
+    width: 50%;
+    max-width: 250px;
+    max-height: 270px;
+    border-radius: 20px;
+  }
+
+  @media (min-width: 931px) {
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    img {
+      width: 70%;
     }
   }
 `;

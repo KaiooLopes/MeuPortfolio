@@ -17,8 +17,8 @@ export const GlobalStyle = createGlobalStyle`
 body {
   background-image: url(${Background});
   background-repeat: repeat-y;
-  background-position: center;
-  background-size: cover;
+  background-position: top;
+  background-size: contain;
   margin: 0;
   font-family: "Signika Negative", sans-serif;
 }
