@@ -114,6 +114,9 @@ const Projects = () => {
           <h2>{currentProject.subtitle}</h2>
           <p>Tecnologias usadas: </p>
           {currentProject.tecs && <p>{currentProject.tecs.join(", ")}</p>}
+          <a href={currentProject.link} target="_blank" rel="noreferrer">
+            Ir para o site
+          </a>
         </div>
       </ShowDetails>
     </ProjectsContainer>

@@ -69,18 +69,20 @@ export const ProjectsContainer = styled.div`
 
 export const ShowDetails = styled.div`
   max-height: ${(props) => (props.scrollPage ? "400px" : 0)};
+  min-height: ${(props) => (props.scrollPage ? "400px" : 0)};
   display: flex;
   overflow: hidden;
-  margin: 40px 0;
   transition: opacity 0.5s;
   opacity: ${(props) => (props.switchProject ? 0 : 1)};
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: white;
+
   div {
     width: 100%;
   }
+
   img {
     width: 50%;
     max-width: 250px;
@@ -88,10 +90,23 @@ export const ShowDetails = styled.div`
     border-radius: 20px;
   }
 
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #363636;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+
+    &:hover {
+      background-color: black;
+    }
+  }
+
   @media (min-width: 931px) {
     flex-direction: row;
     width: 70%;
-    margin: 40px auto;
+    margin: 0 auto;
     img {
       width: 70%;
     }
